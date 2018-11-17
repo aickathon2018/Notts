@@ -1,0 +1,69 @@
+[
+  {
+    "male": {
+      "oct": {
+        "img": [
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0540/8445/products/boka_top_hot22454_wd_13.jpg?v=1534828624",
+            "traits": ["ivory_black","dim_grey", "lamp_black", "Casual", "Business", "Vintage", "Poncho", "Blouse"]
+          }
+        ],
+        "traits": {
+          "color": ["ivory_black", "dim_grey", "lamp_black", "grey", "beige"],
+          "style": ["Casual", "Romantic", "90s"],
+          "garment": ["Tee", "Jeans", "Sweatpants", "Hoodie", "Jacket"]
+        }
+      },
+    "nov": {
+      "img": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0540/8445/products/boka_top_hot22454_wd_13.jpg?v=1534828624",
+          "traits": ["ivory_black","dim_grey", "lamp_black", "Casual", "Business", "Vintage", "Poncho", "Blouse"]
+        }
+      ],
+      "traits": {
+        "color": ["ivory_black", "dim_grey", "rosy_brown", "beige", "deep_ochre"],
+        "style": ["Casual", "Business", "Outdoor"],
+        "garment": ["Jacket", "Tee", "Jeans", "Sweatpants", "Coat"]
+      }
+    }
+    },
+    "female": {
+      "oct": {
+        "img": [
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0540/8445/products/boka_top_hot22454_wd_13.jpg?v=1534828624",
+            "traits": ["ivory_black","dim_grey", "lamp_black", "Casual", "Business", "Vintage", "Poncho", "Blouse"]
+          },
+          {
+            "url": "https://static-v3.fashionvalet.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/7/07_c_3.jpg",
+            "traits": ["beige", "antique_white", "Elegant", "Bohemian", "Robe"]
+          },
+          {
+            "url": "https://images.bubbleroom.eu/data/product/raw/vero-moda-lizz-bralette-sepia-rose_1.jpg",
+            "traits": ["peru" ,"rosy_brown", "slate_grey_light", "Sexy", "Romantic", "Shorts"]
+          }
+        ],
+        "traits": {
+          "color": ["ivory_black", "dim_grey", "black", "grey", "beige", "sepia"],
+          "style": ["Casual", "Business", "Sexy"],
+          "garment": ["Blouse", "Tee", "Skirt", "Shorts", "Jeans"]
+        }
+      },
+      "nov": {
+        "img": [
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0540/8445/products/boka_top_hot22454_wd_13.jpg?v=1534828624",
+            "traits": ["ivory_black","dim_grey", "lamp_black", "Casual", "Business", "Vintage", "Poncho", "Blouse"]
+          }
+        ],
+        "traits": {
+          "color": ["ivory_black", "dim_grey", "lamp_black", "grey", "beige"],
+          "style": ["90s", "Business", "Elegant"],
+          "garment": ["Jacket", "Skirt", "Jeans", "Dress", "Blouse"]
+        }
+      }
+    }
+  }
+
+]
