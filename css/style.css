@@ -79,7 +79,7 @@ ul{
 .tablink{
   margin-left: 10px;
   border: none;
-
+  background-color: transparent;
 }
 
 /*.tablink:nth-child(2) {*/
