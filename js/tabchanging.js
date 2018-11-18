@@ -215,20 +215,22 @@ function generateGrid(gender){
             let ul = document.createElement("ul");
             // el.appendChild(headline);
             el.appendChild(ul);
+            let detailText ="";
             featureList.forEach(renderFeatureList);
 
             function renderFeatureList(element) {
-                var li = document.createElement('li');
-                // li.setAttribute('class','item');
-
-                ul.appendChild(li);
-
-                li.innerHTML=li.innerHTML + element;
-                console.log(li);
+                // var li = document.createElement('li');
+                // // li.setAttribute('class','item');
+                //
+                // ul.appendChild(li);
+                //
+                // li.innerHTML=li.innerHTML + element;
+                // console.log(li);
+                detailText = detailText + element + " | ";
             }
 
-            // detail.appendChild(document.createTextNode(detailText));
-            detail.appendChild(ul);
+            detail.appendChild(document.createTextNode(detailText));
+            // detail.appendChild(ul);
             desc.appendChild(span);
             desc.appendChild(title);
             desc.appendChild(detail);
