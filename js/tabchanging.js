@@ -325,6 +325,7 @@ function generateGrid(gender){
                 let title = document.createElement("h2");
                 title.appendChild(document.createTextNode(""));
                 let detail = document.createElement("p");
+                let detailText ="";
                 // let detailText = "";
                 // for(let j =0 ; j<maleNovImages[i]["traits"].length;j++){
                 //     // detailText =  detailText.toUpperCase() + maleNovImages[i]["traits"][j] + " ";
@@ -337,17 +338,18 @@ function generateGrid(gender){
                 featureList.forEach(renderFeatureList);
 
                 function renderFeatureList(element) {
-                    var li = document.createElement('li');
-                    // li.setAttribute('class','item');
-
-                    ul.appendChild(li);
-
-                    li.innerHTML=li.innerHTML + element;
-                    console.log(li);
+                    // var li = document.createElement('li');
+                    // // li.setAttribute('class','item');
+                    //
+                    // ul.appendChild(li);
+                    //
+                    // li.innerHTML=li.innerHTML + element;
+                    // console.log(li);
+                    detailText = detailText + element + " | ";
                 }
 
                 // detail.appendChild(document.createTextNode(detailText));
-                detail.appendChild(ul);
+                detail.appendChild(document.createTextNode(detailText));
                 desc.appendChild(span);
                 desc.appendChild(title);
                 desc.appendChild(detail);
